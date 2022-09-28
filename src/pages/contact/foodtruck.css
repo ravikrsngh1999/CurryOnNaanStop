@@ -1,0 +1,25 @@
+.foodtruck_container {
+  padding: 65px;
+  text-align: center;
+  font-size: 24px;
+}
+.foodtruck_container img {
+  width: 100%;
+  margin-top: 65px;
+}
+@media only screen and (max-width: 768px) {
+  .foodtruck_container {
+    padding-bottom: 0px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .foodtruck_container {
+    padding:40px 20px;
+    padding-bottom: 0px;
+    font-size: 18px;
+  }
+  .foodtruck_container img {
+    margin-top: 50px;
+  }
+}

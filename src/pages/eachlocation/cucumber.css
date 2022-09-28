@@ -1,0 +1,8 @@
+.el .links a {
+
+}
+@media only screen and (max-width: 1000px) {
+  .el .links a {
+    max-width: 200px;
+  }
+}

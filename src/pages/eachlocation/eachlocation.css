@@ -1,0 +1,197 @@
+.el .first {
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  background-color: rgba(236,26,108,0.45);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+#dialfirst {
+  background-image: url(./../../assets/img/location/7dial1.png);
+}
+#ccfirst {
+  background-image: url(./../../assets/img/location/cucumber1.png);
+}
+#hernehill {
+  background-image: url(./../../assets/img/location/hernehill1.png);
+}
+#epsomfirst {
+  background-image: url(./../../assets/img/location/epsocial1.png);
+}
+#vauxfirst {
+  background-image: url(./../../assets/img/location/vauxhall.png);
+}
+@media only screen and (max-width: 1000px) {
+  .el .first {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .el .first {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .el .first {
+    font-size: 28px;
+    padding: 120px 0;
+  }
+}
+
+
+
+
+.el .second {
+  padding: 60px;
+}
+.el .second h2 {
+  font-size: 48px;
+  text-align: center;
+}
+.el .links {
+  display:flex;
+  justify-content: center;
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: 600;
+  flex-wrap:wrap;
+}
+.el .links a {
+  padding: 35px 20px;
+  min-width:300px;
+  background-color: #FCCC2D;
+  text-align: center;
+  color: #EC1A6C;
+  border-radius: 10px;
+  margin:15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.el .links a img {
+  height: 50px;
+  width: auto;
+  margin-left: 15px;
+}
+@media only screen and (max-width: 1000px) {
+.el .second h2 {
+    font-size: 40px;
+  }
+  .el .links a {
+    max-width: none !important;
+    flex-grow: 1;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .el .second {
+    padding: 50px 40px;
+  }
+.el .second h2 {
+    font-size: 36px;
+  }
+.el .links a {
+    padding: 28px 0;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .el .second {
+    padding: 40px 20px;
+  }
+  .el .second h2 {
+      font-size: 28px;
+    }
+    .el .links  {
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  .el .links a {
+      flex: 0 0 100%;
+      max-width: none !important;
+      margin: 10px 0;
+      padding: 20px 0;
+      font-size: 18px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.el .third {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 59% 41%;
+  padding: 60px;
+  padding-top: 0;
+  background-image: url(./../../assets/img/location/locationbg.png);
+  background-repeat: no-repeat;
+  background-position:130% -50%;
+}
+.el .third_1 img {
+  width: 100%;
+}
+.el .third_2 {
+  padding:30px 60px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.el .third_2 h4 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.el .third_2 span {
+  font-size: 20px;
+  line-height: 35px;
+  color: #777777;
+}
+.el .contact_us h4 {
+  color: #EC1A6C;
+}
+@media only screen and (max-width: 1000px) {
+  .el .third {
+    grid-template-columns: 100%;
+  }
+  .el .third_2 {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .el .third_2 div {
+    margin: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .el .third {
+    padding: 60px 40px;
+    padding-top: 0;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  .el .third {
+    padding: 60px 20px;
+    padding-top: 0;
+  }
+  .el .third_2 h4 {
+    font-size: 28px;
+  }
+  .el .third_2 span {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+}

@@ -1,0 +1,111 @@
+
+
+.popup_outercontainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  height: 100vh;
+  overflow: hidden;
+}
+.popup_innercontainer {
+  position: relative;
+  width: calc(100% - 60px);
+  max-width: 840px;
+  background: #FFEEB8;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.popup_innercontainer img {
+  width: 100%;
+}
+.popup_innercontainer p {
+  padding: 25px 40px;
+  text-align: center;
+}
+.popup_innercontainer form {
+  width: 70%;
+  margin: 0 auto;
+}
+.popup_innercontainer input {
+  padding:15px 10px;
+  width: 48%;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.popup_innercontainer .form_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.popup_innercontainer button{
+  padding: 15px 10px;
+  display: block;
+  width: 250px;
+  font-weight: bolder;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #EC1A68;
+  color: white;
+  letter-spacing: 1px;
+}
+.popup_innercontainer span {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.close img {
+  width: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .popup_innercontainer {
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  .popupimg_container img {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .popup_innercontainer p{
+    font-size: 14px;
+    padding: 20px;
+  }
+  .popup_innercontainer form {
+    width: calc(100% - 40px);
+  }
+  .popup_innercontainer .form_group {
+    margin: 0;
+  }
+  .popup_innercontainer input {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .popup_innercontainer button{
+    margin: 20px auto;
+  }
+  .popup_innercontainer span {
+    font-size: 10px;
+    width: 95%;
+  }
+}

@@ -1,0 +1,53 @@
+.youtube_conatiner {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 48% 52%;
+}
+.youtube_conatiner video {
+  width: 100%;
+}
+.youtube_1 {
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.youtube_1 img {
+  width: 250px;
+}
+.youtube_1 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.youtube_1 a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  color: #EC1A6C;
+}
+
+@media only screen and (max-width: 1240px) {
+    .youtube_conatiner {
+      grid-template-columns: 100%;
+    }
+    .youtube_1 {
+      padding: 60px;
+    }
+}
+@media only screen and (max-width: 600px){
+  .youtube_1 {
+    padding: 40px 20px;
+  }
+  .youtube_1 img {
+    width: 200px;
+  }
+  .youtube_1 h2 {
+    font-size: 28px;
+  }
+  .youtube_1 a {
+    font-size: 28px;
+  }
+}
