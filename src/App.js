@@ -41,7 +41,6 @@ function App() {
           <Route path='/7dial' element={<Dial/>} />
           <Route path='/cucumber-alley' element={<Cucumber/>} />
           <Route path='/hernehill' element={<Hernehill/>} />
-          <Route path='/epsomsocial' element={<EpsomSocial/>} />
           <Route path='/vauxhall' element={<Vauxhall/>} />
           <Route path='/contact-us' element={<Contact/>} />
         </Routes>

@@ -54,12 +54,6 @@ function Menu() {
         </a>
       </div>
 
-      <div className="menu_item">
-        <a href={epsmenu} target="_blank">
-          <h4>Epsom Social</h4>
-          <img src={next} alt="" />
-        </a>
-      </div>
 
       <img src={m2bg1} alt="" id="m2bg1" />
       <img src={m2bg2} alt="" id="m2bg2" />

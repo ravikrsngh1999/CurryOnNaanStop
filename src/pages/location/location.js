@@ -44,12 +44,6 @@ function Location() {
 
     </div>
 
-    <div className="location_container" id="location4">
-
-      <h2>Epsom Social</h2>
-      <Link to='/epsomsocial'><button type="button" name="button">CLICK HERE</button></Link>
-
-    </div>
 
     <div className="location_container" id="location5">
 
